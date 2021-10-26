@@ -31,5 +31,20 @@ Projects for Professor Farnan's CS1501 course
   - MyStringBuilder.java -> stringbuilder class used when implementing DLB's
 
 4.**Project 4: Graphs and Networks**
+  - AdjacencyList.java -> adjacency list for implementation
+  - AdjNode.java -> node for adjacency list
+  - App.java -> start the tests
+  - ArticulationPointSearch.java -> search for articulation point
+  - DFS.java -> used to check if graph is connected if only consider copper based connections
+  - HeapPQ.java -> heap pq used to implement some of the files
+  - IndirectionDLB.java -> indirection table for the heap
+  - IndirectionNode.java -> node for indirection table
+  - MyDijkstra.java -> used to find lowest average latency path
+  - MyPrim.java -> used to find lowest average latency spanning tree
+  - NetAnalysis.java -> functions for analyzing graphs and networks (implements NetAnalysis_Inter.java)
+  - NetAnalysis_Inter.java -> interface provided by instructor
+  - STE.java -> provided by instructor, spanning tree edge
+  - network_data2.txt -> data used for the test
 
 5.**Project 5: BigInteger Implementation**
+  - HeftyInteger.java -> implement a data type that can perform operations on arbitrarily large integers (similar to BigInteger)
